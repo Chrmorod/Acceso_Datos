@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Proyecto_AndroidSQLite</string>
+    <string name="buttonSave">Save info</string>
+    <string name="buttonLoad">Load info</string>
+</resources>

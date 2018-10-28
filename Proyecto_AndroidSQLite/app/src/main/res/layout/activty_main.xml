@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="Select the option that best apply"
+        />
+    <Button
+        android:id="@+id/buttonpref"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/textinfo"
+        android:text="Preferences" />
+
+    <Button
+        android:id="@+id/buttonteach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Add Teacher"
+        android:layout_below="@+id/buttonpref"/>
+    <Button
+        android:id="@+id/buttonclearteach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Clear All Teach"
+        android:layout_below="@+id/buttonteach"/>
+
+    <Button
+        android:id="@+id/buttonstude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Add Student"
+        android:layout_below="@+id/buttonclearteach"/>
+
+    <Button
+        android:id="@+id/buttonclearstude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Clear All Student"
+        android:layout_below="@+id/buttonstude"/>
+
+    <Button
+        android:id="@+id/buttonqueries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Queries"
+        android:layout_below="@+id/buttonclearstude"/>
+
+
+</RelativeLayout>
